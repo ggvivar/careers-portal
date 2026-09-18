@@ -1,0 +1,33 @@
+{
+  "name": "jng/apply-portal",
+  "description": "Joy-Nostalg applicant portal using the shared JNG Careers database.",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2",
+    "codeigniter4/framework": "^4.7",
+    "guzzlehttp/guzzle": "^7.14"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.24",
+    "phpunit/phpunit": "^10.5 || ^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Config\\": "app/Config/"
+    },
+    "exclude-from-classmap": [
+      "**/Database/Migrations/**"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist"
+  },
+  "scripts": {
+    "setup:writable": "@php tools/setup.php",
+    "check:syntax": "@php tools/lint.php"
+  }
+}

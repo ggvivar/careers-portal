@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page Not Found</title></head><body style="font-family:Arial;text-align:center;padding:80px"><h1>Page not found</h1><p>The requested page could not be found.</p><a href="<?= site_url('jobs') ?>">View open jobs</a></body></html>

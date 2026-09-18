@@ -1,0 +1,14 @@
+.env
+/vendor/
+/writable/cache/*
+!/writable/cache/.gitkeep
+/writable/logs/*
+!/writable/logs/.gitkeep
+/writable/session/*
+!/writable/session/.gitkeep
+/writable/debugbar/*
+!/writable/debugbar/.gitkeep
+/writable/uploads/*
+!/writable/uploads/.gitkeep
+/writable/careers-storage/*
+!/writable/careers-storage/.gitkeep

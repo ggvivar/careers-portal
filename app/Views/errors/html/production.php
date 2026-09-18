@@ -1,0 +1,4 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Something went wrong</title>
+<style>body{min-height:100vh;margin:0;display:grid;place-items:center;background:#f5f7fb;font-family:"Segoe UI",Arial,sans-serif;color:#202331}.card{width:min(92vw,560px);padding:42px;text-align:center;border-radius:18px;background:#fff;box-shadow:0 18px 45px rgba(10,1,71,.08)}a{display:inline-block;margin-top:18px;padding:11px 17px;border-radius:10px;background:#ffc91c;color:#0a0147;font-weight:700;text-decoration:none}</style></head>
+<body><main class="card"><h1>Something went wrong</h1><p>The portal could not complete your request. Please try again or contact recruitment support.</p><a href="<?= htmlspecialchars(site_url('jobs'), ENT_QUOTES, 'UTF-8') ?>">Return to jobs</a></main></body></html>
