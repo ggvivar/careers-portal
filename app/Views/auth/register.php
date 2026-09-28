@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Create Applicant Account | JNG</title>
+    <title>Create Account | JNG</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root{--jng-primary:#0a0147;--jng-yellow:#ffc91c;--jng-border:#e0e4ec}
@@ -60,7 +60,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-jng w-100 mt-4" id="createButton">
-                        <span id="createButtonText">Create applicant account</span>
+                        <span id="createButtonText">Create account</span>
                         <span class="spinner-border spinner-border-sm ms-2 d-none" id="createSpinner"></span>
                     </button>
                 </form>
